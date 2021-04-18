@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1027f7b-bbeb-4618-b92a-7de9c1e35793" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DSA sorted by topics and Frequency" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pgkKWbJfR1mYl24AL61kmBQCnp" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../System Design/LLD/Practice/management" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value=";" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GetNumberOfStringsMatchingThePrefix">
+    <configuration name="CoinChange1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.UnboundedKnapsack.CoinChange1" />
+      <module name="DSA sorted by topics and Frequency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.UnboundedKnapsack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.UnboundedKnapsack.CoinChange2" />
+      <module name="DSA sorted by topics and Frequency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.UnboundedKnapsack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetNumberOfStringsMatchingThePrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetNumberOfStringsMatchingThePrefix" />
+      <module name="DSA sorted by topics and Frequency" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTree.MainClass" />
+      <module name="DSA sorted by topics and Frequency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearchTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.MainClass" />
+      <module name="DSA sorted by topics and Frequency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumInsertionsDeletions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.LCS.MinimumInsertionsDeletions" />
+      <module name="DSA sorted by topics and Frequency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.LCS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintLcs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.LCS.PrintLcs" />
+      <module name="DSA sorted by topics and Frequency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.LCS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GetNumberOfStringsMatchingThePrefix" />
+        <item itemvalue="Application.MinimumInsertionsDeletions" />
+        <item itemvalue="Application.PrintLcs" />
+        <item itemvalue="Application.CoinChange2" />
+        <item itemvalue="Application.CoinChange1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1027f7b-bbeb-4618-b92a-7de9c1e35793" name="Default Changelist" comment="" />
+      <created>1615612056733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615612056733</updated>
+      <workItem from="1615612060329" duration="3787000" />
+      <workItem from="1615954414755" duration="3336000" />
+      <workItem from="1616050912594" duration="2719000" />
+      <workItem from="1616157585981" duration="50182000" />
+      <workItem from="1616316506728" duration="170000" />
+      <workItem from="1616317806741" duration="600000" />
+      <workItem from="1616325787975" duration="8313000" />
+      <workItem from="1616386133944" duration="69999000" />
+      <workItem from="1616669282893" duration="79389000" />
+      <workItem from="1617073452303" duration="156429000" />
+      <workItem from="1617615491681" duration="17000" />
+      <workItem from="1617629146669" duration="34877000" />
+      <workItem from="1618037244884" duration="38564000" />
+      <workItem from="1618457870089" duration="10477000" />
+      <workItem from="1618557428886" duration="698000" />
+      <workItem from="1618562666702" duration="1583000" />
+      <workItem from="1618638711303" duration="16224000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedLists/LinkedList.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedLists/LinkedList.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
