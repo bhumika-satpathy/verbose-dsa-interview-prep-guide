@@ -1,12 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1027f7b-bbeb-4618-b92a-7de9c1e35793" name="Default Changelist" comment="" />
+    <list default="true" id="c1027f7b-bbeb-4618-b92a-7de9c1e35793" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/LCS/PalindromicSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/ContinuosSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/DeleteAndEarn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/MaximumProductSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/MinimumCostsForTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/kthLargestElementInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matrix/CountSquareSubmatricesWithAllOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/BSTIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/BackSpaceStringCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MaximalRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MaximumFrequencyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/NexGreaterElementInALoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/NextSmallerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/RemoveDuplicateLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/RemoveDuplicatesFromAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/RemoveKDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/ScoreOfParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/CalcDepthOfAFullBTFromPreorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/CalcDepthOfAFullBTFromPreorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/DensityOfABT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/DensityOfABT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/DiagonalTraversalOfBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/DiagonalTraversalOfBT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/MaximumPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/MaximumPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/PrintAncestorsOfAGivenNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/PrintAncestorsOfAGivenNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/PrintLeftViewOfABinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/PrintLeftViewOfABinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/Kanpsack/CountSubsetsWithGivenSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/Kanpsack/CountSubsetsWithGivenSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/Kanpsack/EqualSumPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/Kanpsack/EqualSumPartition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/Kanpsack/TargetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/Kanpsack/TargetSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/LPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/LPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/DetectCycleInADirected$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/DetectCycleInADirected$Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/DetectCycleInUndirected$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/DetectCycleInUndirected$Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/NumberOfIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/NumberOfIslands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/KLargestElementsInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/KLargestElementsInAnArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/LinkedLists/IntersectionOf2SortedLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/LinkedLists/IntersectionOf2SortedLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/LinkedLists/RemoveAllOccurancesOfDupsFromSortedLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/LinkedLists/RemoveAllOccurancesOfDupsFromSortedLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/LinkedLists/SegregateEvenOddNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/LinkedLists/SegregateEvenOddNodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Matrix/Spiral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Matrix/Spiral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/CalcDepthOfAFullBTFromPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/CalcDepthOfAFullBTFromPreorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/DensityOfABT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/DensityOfABT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/DiagonalTraversalOfBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/DiagonalTraversalOfBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/InsertionInABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/InsertionInABinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/MaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/MaximumPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/PopulateInorderSuccessorOfAllNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/PopulateInorderSuccessorOfAllNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/PrintAncestorsOfAGivenNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/PrintAncestorsOfAGivenNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/PrintLeftViewOfABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/PrintLeftViewOfABinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Kanpsack/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Kanpsack/TargetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/LCS/LPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/LCS/LPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/LCS/LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/LCS/LongestCommonSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/LCS/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/LCS/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/LCS/MinimumDeletionsToMakePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/LCS/MinimumDeletionsToMakePalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/NumberOfIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/KLargestElementsInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/KLargestElementsInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/SortNearlySortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/SortNearlySortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/TopKFrequentWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/IntersectionOf2SortedLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/IntersectionOf2SortedLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/RemoveAllOccurancesOfDupsFromSortedLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/RemoveAllOccurancesOfDupsFromSortedLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/SegregateEvenOddNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/SegregateEvenOddNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matrix/RotateBy90AntiClockwise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matrix/RotateBy90AntiClockwise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/MaximumAreaHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MaximumAreaHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/MinimumNumberOfBracketReversalsToMakeExpBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MinimumNumberOfBracketReversalsToMakeExpBalanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/QueueUsingSTacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/QueueUsingStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/RemoveAllAdjacentDuplicatesInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/RemoveAllAdjacentDuplicatesInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/LetterCombinationsOfAPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
@@ -22,8 +108,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pgkKWbJfR1mYl24AL61kmBQCnp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../System Design/LLD/Practice/management" />
@@ -32,6 +125,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Graphs" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -50,20 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetNumberOfStringsMatchingThePrefix">
-    <configuration name="CoinChange1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.UnboundedKnapsack.CoinChange1" />
-      <module name="DSA sorted by topics and Frequency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP.UnboundedKnapsack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.kthLargestElementInAnArray">
     <configuration name="CoinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP.UnboundedKnapsack.CoinChange2" />
       <module name="DSA sorted by topics and Frequency" />
@@ -80,19 +165,6 @@
     <configuration name="GetNumberOfStringsMatchingThePrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetNumberOfStringsMatchingThePrefix" />
       <module name="DSA sorted by topics and Frequency" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTree.MainClass" />
-      <module name="DSA sorted by topics and Frequency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearchTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,13 +208,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kthLargestElementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.kthLargestElementInAnArray" />
+      <module name="DSA sorted by topics and Frequency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kthLargestElementInAnArray" />
         <item itemvalue="Application.GetNumberOfStringsMatchingThePrefix" />
         <item itemvalue="Application.MinimumInsertionsDeletions" />
         <item itemvalue="Application.PrintLcs" />
         <item itemvalue="Application.CoinChange2" />
-        <item itemvalue="Application.CoinChange1" />
       </list>
     </recent_temporary>
   </component>
@@ -172,13 +257,40 @@
       <workItem from="1618457870089" duration="10477000" />
       <workItem from="1618557428886" duration="698000" />
       <workItem from="1618562666702" duration="1583000" />
-      <workItem from="1618638711303" duration="16224000" />
+      <workItem from="1618638711303" duration="47611000" />
+      <workItem from="1619000605640" duration="15505000" />
+      <workItem from="1619928606682" duration="618000" />
+      <workItem from="1620740353693" duration="2954000" />
+      <workItem from="1620813958005" duration="652000" />
+      <workItem from="1620879641741" duration="5202000" />
+      <workItem from="1621224434376" duration="6000" />
+      <workItem from="1621252889101" duration="2024000" />
+      <workItem from="1621509264141" duration="971000" />
+      <workItem from="1621526960096" duration="5231000" />
+      <workItem from="1621740769668" duration="8141000" />
+      <workItem from="1621866225865" duration="29611000" />
+      <workItem from="1622376729693" duration="7077000" />
+      <workItem from="1622512369257" duration="1193000" />
+      <workItem from="1622529321682" duration="1070000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

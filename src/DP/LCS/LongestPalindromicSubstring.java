@@ -1,6 +1,21 @@
 package DP.LCS;
 
 public class LongestPalindromicSubstring {
+
+    public int recursiveApproach(String str, int n, int m){
+        if(n == m){
+            return 1;
+        }
+        if(n + 1 == m){
+            return str.charAt(n) == str.charAt(m) ? 2 : 0;
+        }
+
+        if(str.charAt(n) == str.charAt(m) && recursiveApproach(str, n + 1, m - 1) > 0) {
+            return 2 + recursiveApproach(str, n + 1, m - 1);
+        }
+        return Math.max(recursiveApproach(str, n + 1, m), recursiveApproach(str, n, m - 1));
+    }
+
     public String longestPalindrome(String s) {
         boolean[][] dp = new boolean[s.length()][s.length()];
 

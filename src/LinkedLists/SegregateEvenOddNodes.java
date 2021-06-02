@@ -32,6 +32,7 @@ public class SegregateEvenOddNodes {
                     curr.next = null;
                     newEnd.next = curr;
                     curr = prev.next;
+                    newEnd = newEnd.next;
                 }
             }
         } else prev = curr;

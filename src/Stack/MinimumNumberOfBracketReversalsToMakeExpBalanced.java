@@ -39,17 +39,17 @@ public class MinimumNumberOfBracketReversalsToMakeExpBalanced {
         if(exp.length() % 2 != 0)
             return -1;
 
-        int left_brace = 0, right_brace = 0;
+        int unbalanced_left_brace = 0, right_brace = 0;
         for(int i = 0; i < exp.length(); i++){
             if(exp.charAt(i) == '{')
-                left_brace++;
+                unbalanced_left_brace++;
             else {
-                if(left_brace > 0)
-                    left_brace--;
+                if(unbalanced_left_brace > 0)
+                    unbalanced_left_brace--;
                 else right_brace++;
             }
         }
 
-        return (int)(Math.ceil(left_brace/2 + right_brace/2));
+        return (int)(Math.ceil(unbalanced_left_brace/2 + right_brace/2));
     }
 }

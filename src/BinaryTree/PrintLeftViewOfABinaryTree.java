@@ -24,6 +24,7 @@ public class PrintLeftViewOfABinaryTree {
                     queue.add(tmp.left);
                 if(tmp.right != null)
                     queue.add(tmp.right);
+                tmp = queue.poll();
             }
         }
     }

@@ -49,7 +49,7 @@ public class TargetSum {
             for(int j = 1; j <= sum; j++){
                 dp[i][j] = dp[i][j - 1];
                 if(arr[i - 1] <= j)
-                    dp[i][j] |= dp[i - 1][j - arr[i - 1]];
+                    dp[i][j] += dp[i - 1][j - arr[i - 1]];
             }
         }
 

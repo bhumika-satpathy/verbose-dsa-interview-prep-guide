@@ -11,7 +11,7 @@ class NodeInorderSuccessor {
     }
 }
 
-// SImilar method for inorder predecessor except that for predecessor, recursive call to left is to be made first
+// Similar method for inorder predecessor except that for predecessor, recursive call to left is to be made first
 public class PopulateInorderSuccessorOfAllNodes {
     NodeInorderSuccessor next = null;
     void Solution(NodeInorderSuccessor root){

@@ -12,6 +12,7 @@ public class TopKFrequentWords {
             map.put(words[i], 1 + map.getOrDefault(words[i], 0));
         }
 
+        // MinHeap implementation using a comparator via priority queue
         PriorityQueue<String> pQ = new PriorityQueue<String>((m1, m2) -> map.get(m1) == map.get(m2) ?
                 m2.compareTo(m1) : map.get(m1) - map.get(m2));
 

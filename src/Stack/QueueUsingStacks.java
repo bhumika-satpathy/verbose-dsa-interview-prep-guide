@@ -2,7 +2,7 @@ package Stack;
 
 import java.util.Stack;
 
-public class QueueUsingSTacks {
+public class QueueUsingStacks {
     static class Queue {
         Stack<Integer> stack;
     }

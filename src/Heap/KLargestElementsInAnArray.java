@@ -8,6 +8,14 @@ public class KLargestElementsInAnArray {
     void kLargestElements(int[] arr, int size, int k){
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
+        // Alternate method
+//        for(int i = 0; i < arr.length; i++){
+//            minHeap.add(arr[i]);
+//            if(i >= k){
+//                minHeap.poll();
+//            }
+//        }
+
         for(int i = 0; i < k; i++)
             minHeap.add(arr[i]);
 

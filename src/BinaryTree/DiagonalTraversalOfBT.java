@@ -39,22 +39,14 @@ public class DiagonalTraversalOfBT {
 
         Queue<Node> q = new LinkedList<>();
         q.add(root);
-        q.add(null);
 
         while(!q.isEmpty()){
             Node tmp = q.poll();
-            if(tmp == null){
-                if(q.isEmpty())
-                    return;
-                System.out.println();
-                q.add(null);
-            } else {
-                while(tmp != null){
-                    System.out.print(tmp.data + " ");
-                    if(tmp.left != null)
-                        q.add(tmp.left);
-                    tmp = tmp.right;
-                }
+            while(tmp != null){
+                System.out.print(tmp.data + " ");
+                if(tmp.left != null)
+                    q.add(tmp.left);
+                tmp = tmp.right;
             }
         }
     }

@@ -1,13 +1,13 @@
 package BinaryTree;
 
-// Separate size class to be created because reference is to be passed to the getHeightAndSize function and no pass by value
-class Size {
-    int size = 0;
-}
 
 // Calculate Density of a Binary Tree
 public class DensityOfABT {
 
+// Separate size class to be created because reference is to be passed to the getHeightAndSize function and no pass by value
+class Size {
+    int size = 0;
+}
     int getHeightAndSize(Node root, Size size){
         if(root == null)
             return 0;

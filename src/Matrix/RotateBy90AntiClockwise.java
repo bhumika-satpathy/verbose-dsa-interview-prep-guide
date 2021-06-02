@@ -19,7 +19,7 @@ public class RotateBy90AntiClockwise {
             }
     }
 
-    void reverseColumns(int[][] mat){
+    void reverseRows(int[][] mat){
         int n = mat[0].length;
 
         for(int i = 0; i < n; i++){

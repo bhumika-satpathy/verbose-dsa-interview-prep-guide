@@ -65,6 +65,7 @@ public class NumberOfIslands {
         while(!q.isEmpty()){
             pair p = q.poll();
             int i = p.first, j = p.second;
+            visited[i][j] = true;
 
             for(int k = 0; k < 8; k++){
                 if(isValid(i + connectedRows[k], j + connectedCols[k], mat, visited)){

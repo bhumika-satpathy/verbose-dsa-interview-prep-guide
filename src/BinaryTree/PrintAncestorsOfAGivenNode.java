@@ -14,7 +14,8 @@ public class PrintAncestorsOfAGivenNode {
 
         if(left != null || right != null){
             System.out.print(root.data + " ");
-            return left != null ? left : right;
+            // could return root or left or right because it doesn't really matter
+            return root;
         }
 
         return null;

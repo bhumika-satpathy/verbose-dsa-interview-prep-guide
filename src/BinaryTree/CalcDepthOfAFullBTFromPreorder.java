@@ -1,6 +1,10 @@
 package BinaryTree;
 
 // Calculate depth of a full Binary tree from Preorder
+// ‘l’ denotes the leaf
+//‘n’ denotes internal node
+// Input  : nlnll
+//Output : 2
 public class CalcDepthOfAFullBTFromPreorder {
 
     int findDepth(String tree, int index, int n){

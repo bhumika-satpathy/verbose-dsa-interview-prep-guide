@@ -8,7 +8,7 @@ public class LongestCommonSubstring {
             return count;
 
         if(a.charAt(n - 1) == b.charAt(m - 1))
-            count = memoizedSolution(a, b, count + 1, n - 1, m - 1);
+            return count = memoizedSolution(a, b, count + 1, n - 1, m - 1);
 
         return count = Math.max(count, Math.max(memoizedSolution(a, b, 0, n - 1, m), memoizedSolution(a, b, 0, n, m - 1)));
     }
