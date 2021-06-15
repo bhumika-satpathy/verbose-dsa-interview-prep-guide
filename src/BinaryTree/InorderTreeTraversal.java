@@ -35,6 +35,7 @@ public class InorderTreeTraversal {
 
     // Using Morris Traversal.
     // Space Complex: O(1)
+    // Creates a fake impression as if there is a right hand side to the predecessor of every node
     void inorderMorris(Node root){
         if(root == null)
             return;

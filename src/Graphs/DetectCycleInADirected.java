@@ -53,7 +53,7 @@ public class DetectCycleInADirected {
             }
 
             for(int i = 0; i < vertices; i++)
-                if(isCyclicUtil(visited, i, recursionSTack))
+                if(!visited[i] && isCyclicUtil(visited, i, recursionSTack))
                     return true;
             return false;
         }

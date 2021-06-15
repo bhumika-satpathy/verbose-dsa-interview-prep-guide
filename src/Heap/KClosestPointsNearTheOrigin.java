@@ -8,6 +8,7 @@ import java.util.PriorityQueue;
 public class KClosestPointsNearTheOrigin {
 
     int[][] kClosestPoints(int[][] points, int k, int size){
+        // Custom implementation of maxHeap using priority queue
         PriorityQueue<int[]> pQ = new PriorityQueue<int[]>((p1, p2) -> p2[1]*p2[1] + p2[0]*p2[0] - p1[1]*p1[1] - p1[0]*p1[0]);
 
         for(int[]p : points){

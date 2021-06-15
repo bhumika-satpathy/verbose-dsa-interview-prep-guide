@@ -2,23 +2,21 @@ package Greedy;
 
 public class Gas_Station {
     public int canCompleteCircuit(int[] gas, int[] cost) {
-        int curr_total = 0, cnt = 1, curr_id = 0;
-        int i = 0;
+        // Total gas balance says if in one full circle, if the total gas is positive or negative
+        int totalGasBalance = 0;
+        int currTotal = 0;
+        int startPoint = 0;
 
-        for(i = 0; i < gas.length && cnt <= gas.length;){
-            if(curr_id >= gas.length && cnt <= gas.length && curr_total >= 0)
-                curr_id = curr_id - gas.length;
-            curr_total += gas[curr_id] - cost[curr_id];
-            if(curr_total < 0){
-                curr_total = 0;
-                cnt = 1;
-                i++;
-                curr_id = i;
-                continue;
+        for(int i = 0; i < gas.length; i++) {
+            totalGasBalance += gas[i] - cost[i];
+            currTotal += gas[i] - cost[i];
+
+            if(currTotal < 0) {
+                currTotal = 0;
+                startPoint = i + 1;
             }
-            cnt++;
-            curr_id++;
         }
-        return i < gas.length ? i : -1;
+
+        return totalGasBalance >= 0 ? startPoint : -1;
     }
 }

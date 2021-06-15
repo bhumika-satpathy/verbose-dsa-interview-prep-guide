@@ -13,6 +13,9 @@ public class LongestCommonSubstring {
         return count = Math.max(count, Math.max(memoizedSolution(a, b, 0, n - 1, m), memoizedSolution(a, b, 0, n, m - 1)));
     }
 
+    // Memoization involves 3D array
+    // refer https://leetcode.com/problems/maximum-length-of-repeated-subarray/solution/ for more clarity.
+
     int topDownDp(String a, String b){
         int n = a.length(), m = b.length();
         int[][] dp = new int[n + 1][m + 1];

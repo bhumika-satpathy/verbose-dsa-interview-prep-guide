@@ -24,6 +24,12 @@ public class MinHeap {
         int right = right(i);
         int smallest = i;
 
+        if(hArr[left] < hArr[smallest]) {
+            smallest = left;
+        }
+        if(hArr[right] < hArr[smallest]) {
+            smallest = right;
+        }
         if(smallest != i){
             int tmp = hArr[i];
             hArr[i] = hArr[smallest];
