@@ -19,7 +19,7 @@ public class BoundaryTraversalOfABT {
     void printRightSide(Node root){
         if(root == null)
             return;
-        // Conditions to avoid duplicacy/ printing the leaf nodes again
+        // Conditions to avoid duplicity/ printing the leaf nodes again
         if(root.right != null){
             printRightSide(root.right);
             System.out.print(root.data + " ");

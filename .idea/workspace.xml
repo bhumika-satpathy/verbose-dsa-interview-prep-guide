@@ -2,75 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1027f7b-bbeb-4618-b92a-7de9c1e35793" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/CombinationSumIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/SubsetsII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Kanpsack/MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Kanpsack/WordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/LCS/MaximumLengthOfRepeatedSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/RainWaterTrapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/AllNodesAtDistanceKFromTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/CourseScheduleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/GraphValidTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/IsGraphBipartite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Matrix01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/PacificAtlanticWaterFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/ShortestPathInABinaryMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/SymmetricTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/TheMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/TheMazeII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/WordLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/JumGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/MinimumDeletionCostToAvoidRepeatingLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/TaskScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMap/LongestIncreasingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Permutations/NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/ValidParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/HowManyNumsAreSmallerThanTheCurrentNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MinimumIndexSumOfTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/NestedListWeightSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/NumberOfStudentsUnableToEatLunch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/PairsofSongsWithTotalDurationsDivisibleby60.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/RobotBoundedInCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FairCandySwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/LeftmostColumnWithAtleastAOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/ConstructBTFromInorderAndPreorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/ConstructBTFromPostrderAndInorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/FindAllLonelyNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/SerializeAndDeSerializeATree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/UnivaluedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/NumberOfOneBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/PowerOfFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleNumberII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleNumberIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/CombinationSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/NQueensII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/RandomizedSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/MinimumKnightMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/WordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/NonDecreasingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/PartitionArrayIntoDisjointIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/DesignHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/DotProductOfTwoSparseVectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/NumberOfmatchingSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointers/IntersectionOfThreeArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/InorderTreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/BinaryTree/InorderTreeTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/Kanpsack/TargetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/Kanpsack/TargetSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/LPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/LPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/LongestCommonSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/LongestCommonSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/LongestPalindromicSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/LongestPalindromicSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/MinimumDeletionsToMakePalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/DP/LCS/MinimumDeletionsToMakePalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/DetectCycleInADirected$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/DetectCycleInADirected$Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/NumberOfIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/NumberOfIslands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Graphs/WallsAndGates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Greedy/Gas_Station.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Greedy/Gas_Station.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/KClosestPointsNearTheOrigin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/KClosestPointsNearTheOrigin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/MinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/MinHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/MinHeap1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/SortNearlySortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/SortNearlySortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/TopKFrequentWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/TopKFrequentWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/kthLargestElementInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Heap/kthLargestElementInAnArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Matrix/RotateBy90AntiClockwise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Matrix/RotateBy90AntiClockwise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/MaximumAreaHistogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/MaximumAreaHistogram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/MinimumNumberOfBracketReversalsToMakeExpBalanced.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/MinimumNumberOfBracketReversalsToMakeExpBalanced.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/QueueUsingSTacks$Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/QueueUsingSTacks$Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/QueueUsingSTacks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/QueueUsingSTacks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/RainWaterTrapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Stack/RainWaterTrapping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/Strings/LetterCombinationsOfAPhoneNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/TwoPointers/MoveZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/TwoPointers/MoveZeroes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/TwoPointers/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA sorted by topics and Frequency/TwoPointers/ThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/MinimumAbsDiffInABST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/MinimumAbsDiffInABST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/kthLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/kthLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/BoundaryTraversalOfABT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BoundaryTraversalOfABT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTree/CalcDepthOfAFullBTFromPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/CalcDepthOfAFullBTFromPreorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/DiameterOfABT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/DiameterOfABT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/InorderSuccessorInABT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/InorderSuccessorInABT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTree/InorderTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/InorderTreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/LCS/LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/LCS/LongestCommonSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/List of problems" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/List of problems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/DetectCycleInADirected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/DetectCycleInADirected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy/Gas_Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/Gas_Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/KClosestPointsNearTheOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/KClosestPointsNearTheOrigin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/MinHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/kthLargestElementInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/kthLargestElementInAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/RainWaterTrapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/RainWaterTrapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointers/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/MoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointers/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/JumGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/JumGameII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/MinimumDeletionsToMakeCharFreqEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/MinimumDeletionsToMakeCharFreqEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/SubarraySumsDivisibleByK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/SubarraySumsDivisibleByK.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GetNumberOfStringsMatchingThePrefix">
     <configuration name="GetNumberOfStringsMatchingThePrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetNumberOfStringsMatchingThePrefix" />
       <module name="DSA sorted by topics and Frequency" />
@@ -278,7 +252,13 @@
       <workItem from="1623304825121" duration="5397000" />
       <workItem from="1623392630436" duration="14654000" />
       <workItem from="1623566875298" duration="1215000" />
-      <workItem from="1623670427497" duration="13692000" />
+      <workItem from="1623670427497" duration="16516000" />
+      <workItem from="1623838654257" duration="9196000" />
+      <workItem from="1623934190213" duration="34929000" />
+      <workItem from="1624189547837" duration="553000" />
+      <workItem from="1624324257298" duration="610000" />
+      <workItem from="1624367574183" duration="1959000" />
+      <workItem from="1624468396180" duration="19875000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />

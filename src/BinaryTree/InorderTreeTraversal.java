@@ -18,7 +18,6 @@ public class InorderTreeTraversal {
             return;
 
         Stack<Node> stack = new Stack<>();
-        stack.push(root);
         Node curr = root;
 
         while(curr != null || !stack.isEmpty()){

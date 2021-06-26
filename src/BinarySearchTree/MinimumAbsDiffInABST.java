@@ -14,6 +14,8 @@ class TreeNode {
   }
 
 // Given a binary search tree with non-negative values, find the minimum absolute difference between values of any two nodes.
+// It is a BST which means that the inorder traversal would give a sorted array of nums. And hence the diff between the inorder successor of a node and the node OR
+// Inorder predecessor of a node and the node would give the desired answer.
 public class MinimumAbsDiffInABST {
     int minDiff = Integer.MAX_VALUE;
     TreeNode prev;

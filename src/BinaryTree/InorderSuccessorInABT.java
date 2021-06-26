@@ -9,6 +9,13 @@ class PNode {
     }
 }
 
+
+/*
+    Approach:
+    1. Check if there are any right nodes. If yes, return that
+    2. Check if the target node is the rightmost node. If yes, return null.
+    3. If you've come this far, then the node lies in the left subtree of the root. Return the node to which the target is the immediate left.
+*/
 public class InorderSuccessorInABT {
 
     Node leftMost(Node root){
@@ -36,26 +43,6 @@ public class InorderSuccessorInABT {
     Node findInorderSuccessor(Node root, Node x){
         if(root == null)
             return null;
-
-        // ------------------ Another alternate way -------------------------------
-//        if(root == x)
-//            return root;
-
-//        Node left = findInorderSuccessor(root.left, x);
-//        Node right = findInorderSuccessor(root.right, x);
-//
-//        if(left != null) {
-//            System.out.print("Inorder Successor of " + x.data + " is ");
-//            System.out.print(root.data);
-//            return null;
-//        }
-//
-//        if(right != null)
-//            return root;
-//        return null;
-
-        // -------------------------------------------------------------------------
-
         if(root == x || (tmp = findInorderSuccessor(root.right, x)) != null || (tmp = findInorderSuccessor(root.left, x)) != null){
             if(tmp != null){
                 if(root.left == tmp){

@@ -9,7 +9,7 @@ public class kthLargestElement {
 
     void kthLargest(Node root, int k, Count c){
 
-        if(root == null | c.cnt >= k)
+        if(root == null || c.cnt >= k)
             return;
 
         kthLargest(root.right, k, c);

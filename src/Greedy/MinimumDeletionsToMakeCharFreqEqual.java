@@ -16,6 +16,7 @@ public class MinimumDeletionsToMakeCharFreqEqual {
 
         for(int i = 0; i < 26; i++){
             int freq = count[i];
+            // Note set.add returns a boolean. Returns: true if the newly added element doesn't exist, else false
             while(freq > 0 && !map.add(freq)){
                 freq--;
                 ans++;

@@ -20,7 +20,7 @@ public class DiameterOfABT {
         diameter = Math.max(diameter, leftPath + rightPath);
 
         // return the longest one between left_path and right_path;
-        // remember to add 1 for the path connecting the node and its parent
+        // remember to add 1 for the path connecting the "node and its parent"
         return Math.max(leftPath, rightPath) + 1;
     }
 }
