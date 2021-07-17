@@ -4,26 +4,33 @@ import java.util.*;
 
 class FirstUnique {
 
-    HashMap<Integer, Integer> map = new HashMap<>();
-    List<Integer> list = new ArrayList<>();
+    HashMap<Integer, Boolean> map;
+    Queue<Integer> q;
     public FirstUnique(int[] nums) {
-        for(Integer num: nums) {
+        map = new HashMap<>();
+        q = new LinkedList<>();
+
+        for(int num: nums) {
             this.add(num);
         }
     }
 
     public int showFirstUnique() {
-        return list.size() == 0 ? -1 : list.get(0);
+        while(!q.isEmpty() && !map.get(q.peek())) {
+            q.poll();
+        }
+        if(!q.isEmpty()) {
+            return q.peek();
+        }
+        return -1;
     }
 
     public void add(int value) {
         if(map.containsKey(value)) {
-            int freq = map.get(value);
-            map.put(value, freq + 1);
-            list.remove((Integer)value);
+            map.put(value, false);
         } else {
-            map.put(value, 1);
-            list.add(value);
+            map.put(value, true);
+            q.add(value);
         }
     }
 }

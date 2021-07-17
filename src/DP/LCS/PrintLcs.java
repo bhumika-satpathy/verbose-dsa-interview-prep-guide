@@ -28,7 +28,7 @@ public class PrintLcs {
        int i = n, j = m;
 
        while(i >= 0 && j >= 0){
-           if(s.charAt(i - 1) == s.charAt(j - 1)){
+           if(s.charAt(i - 1) == t.charAt(j - 1)){
                ans[val--] = s.charAt(i - 1);
                i--;
                j--;

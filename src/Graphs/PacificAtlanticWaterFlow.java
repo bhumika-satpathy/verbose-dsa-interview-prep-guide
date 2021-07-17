@@ -1,9 +1,6 @@
 package Graphs;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 // You are given an m x n integer matrix heights representing the height of each unit cell in a continent.
 // The Pacific ocean touches the continent's left and top edges, and the Atlantic ocean touches the continent's right and bottom edges.
@@ -53,7 +50,7 @@ public class PacificAtlanticWaterFlow {
         for(int i = 0; i < rows; i++) {
             for(int j = 0; j < cols; j++) {
                 if(pacificReferences[i][j] && atlanticReferences[i][j]) {
-//                    ans.add(List.of(i, j));
+                    ans.add(Arrays.asList(i, j));
                 }
             }
         }
