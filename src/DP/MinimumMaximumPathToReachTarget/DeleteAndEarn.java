@@ -15,6 +15,8 @@ public class DeleteAndEarn {
         dp[0] = buckets[0];
         dp[1] = buckets[1];
         for (int i = 2; i < buckets.length; i++) {
+            // 1. Choose the current i => sum of bucket[i] + sum until dp[i - 2]
+            // 2. Choose the previous i and do not choose/delete the i - 2 and i possibility => not choosing bucket[i] and dp[i - 2]
             dp[i] = Math.max(buckets[i] + dp[i - 2], dp[i - 1]);
         }
         return dp[10000];

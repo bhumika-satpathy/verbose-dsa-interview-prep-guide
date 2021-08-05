@@ -1,4 +1,4 @@
-package Permutations;
+package DP.Backtracking;
 // Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
 //
 //If such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order).
@@ -23,7 +23,7 @@ public class NextPermutation {
             swap(nums, i, j);
         }
 
-        // Upto i + 1 above, we found the elements were in decreasing order, hence
+        // Upto i + 1 above, we found that the elements were in decreasing order, hence
         // To find the next greater, we put the next greater in the ith place and from i + 1 reverse so that the elements are in the decreasing order
         reverse(nums, i + 1);
     }

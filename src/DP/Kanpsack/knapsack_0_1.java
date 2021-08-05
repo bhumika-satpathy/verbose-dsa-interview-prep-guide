@@ -11,13 +11,16 @@ public class knapsack_0_1 {
         if(dp[n][w] != -1)
             return dp[n][w];
 
+        // If weight at n - 1  is less than or equal to w, then there are two options/ choices
         if(wt[n - 1] <= w)
+            // To choose the weight or to not choose the weight
             return dp[n][w] = Math.max(val[n - 1] + memoizedSolution(wt, val, n - 1, w - wt[n - 1]),
                     memoizedSolution(wt, val, n - 1, w));
+        // do not choose the weight
         return dp[n][w] = memoizedSolution(wt, val, n - 1, w);
     }
 
-    int toDownDp(int[] wt, int[] val, int n, int w){
+    int topDownDp(int[] wt, int[] val, int n, int w){
         int[][] dp = new int[n + 1][w + 1];
 
         // Initialization

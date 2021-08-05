@@ -14,7 +14,7 @@ public class SubarraySumsDivisibleByK {
             rem = sum % K;
 
             // rem = k*n - y;
-            if(rem < 0){ // y = kn - y = kn - y + k - k = k(n - 1) - y = km + k - y = (km + k - y) % k = k - y = k + rem
+            if(rem < 0){ // y = kn - y = kn - y + k - k = k(n - 1) - y + k = km + k - y = (km + k - y) % k = k - y = k + rem
                 rem = K + rem;
             }
 

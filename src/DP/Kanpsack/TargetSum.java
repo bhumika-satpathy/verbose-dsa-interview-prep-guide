@@ -2,7 +2,7 @@ package DP.Kanpsack;
 
 // You are given a list of non-negative integers, a1, a2, ..., an, and a target, S. Now you have 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol.
 //Find out how many ways to assign symbols to make sum of integers equal to target S.
-// Approach: This problem is same as count no of subsets with given diff except for the fact that here the diff is always supposed to be 1
+// Approach: This problem is same as count no: of subsets with given diff except for the fact that here the diff is always supposed to be 1
 public class TargetSum {
 
     int[][] dp = new int[1002][1002];

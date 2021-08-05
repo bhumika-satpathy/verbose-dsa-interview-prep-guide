@@ -2,27 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1027f7b-bbeb-4618-b92a-7de9c1e35793" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/CheckIfANumberIsMajorityElementAnASortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ConstructKPalindromicStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MajorityElementII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/RangeAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/RectangleOverlap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ValidTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/LCAInABST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Backtracking/GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/UglyNumberII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/ReverseNodesinkGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/CountPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/UglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/MostCommonWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/StringToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/FourSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/PathSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/PathSumIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/SumRootToLeafNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Kanpsack/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Kanpsack/HouseRobberII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Kanpsack/HouseRobberIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Kanpsack/PaintFence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/NumberOfSubarraysWithOddSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/PaintFenceII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy/BestTimetoBuyandSellStock_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/BestTimetoBuyandSellStock_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointers/LongestSubstringWithoutRepeatingChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/LongestSubstringWithoutRepeatingChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Kanpsack/CountSubsetsWithGivenDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Kanpsack/CountSubsetsWithGivenDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Kanpsack/LongestStringChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/LongestStringChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Kanpsack/MaximumPointsYouCanObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Kanpsack/MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Kanpsack/SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Kanpsack/SubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Kanpsack/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Kanpsack/TargetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Kanpsack/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Kanpsack/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Kanpsack/knapsack_0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Kanpsack/knapsack_0_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/DeleteAndEarn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/DeleteAndEarn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/MinimumMaximumPathToReachTarget/HouseRobber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/BinaryTreeMaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BinaryTreeMaximumPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/WordLadder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/SubarraySumsDivisibleByK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/SubarraySumsDivisibleByK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Permutations/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Backtracking/NextPermutation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +248,7 @@
       <workItem from="1626065961297" duration="12556000" />
       <workItem from="1626256142435" duration="5675000" />
       <workItem from="1626612344962" duration="7107000" />
-      <workItem from="1627283750127" duration="17724000" />
+      <workItem from="1627283750127" duration="64101000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />

@@ -15,6 +15,11 @@ import java.util.Queue;
 
 // Reference video: https://www.youtube.com/watch?v=ZVJ3asMoZ18
 
+// Note: BFS only works in this case because the minimum level is needed that suffices the condition.
+// For every change, consider all the letter combinations that could be present in that particular place.
+// Now after calculating, if that exists in the set, then add it to the queue and also remove this word from the set because this is the lowest level or hierarchy hat it reaches and
+// any other word cannot possibly reach or will take more depth to reach here.
+
 public class WordLadder {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         HashSet setOfWords = new HashSet<>();
@@ -32,13 +37,13 @@ public class WordLadder {
             return 0;
         }
 
-        // Since length of all the words in the list is same, eachWordLength is same accross all the words
+        // Since length of all the words in the list is same, eachWordLength is same across all the words
         int eachWordLength = endWord.length();
 
         Queue<String> queue = new LinkedList<>();
         queue.add(beginWord);
 
-        // Denotes all the words in a particular level blonging s=to the same adjacency list
+        // Denotes all the words in a particular level belonging s=to the same adjacency list
         int levelSize = 0;
 
         // Tells about the depth of each node in the list
@@ -50,24 +55,24 @@ public class WordLadder {
 
             // Traverses over one level consisting of levelSize number of nodes
             while(levelSize > 0) {
-                // Using the current word in the queue, we try to find all the adjancy words wrt this curr word among the set of words
+                // Using the current word in the queue, we try to find all the adjacency words wrt this curr word among the set of words
                 String curr = queue.poll();
 
                 for(int i = 0; i < eachWordLength; i++) {
 
-                    // Temporary string to make operations of addtion of a character and deletion on
+                    // Temporary string to make operations of addition of a character and deletion on
                     char[] temp = curr.toCharArray();
 
                     for(char ch = 'a'; ch <= 'z'; ch++) {
                         temp[i] = ch;
                         String word = String.valueOf(temp);
 
-                        // If the same word is come accross then no need to process
+                        // If the same word is come across then no need to process
                         if(curr.equals(word)) {
                             continue;
                         }
 
-                        // If the endWord is already come accross then return this shortest path using depth
+                        // If the endWord is already come across then return this shortest path using depth
                         if(word.equals(endWord)) {
                             // 1 is added to the depth to include the beginWord too in the list of words it takes to end with the endWord
                             return depth + 1;

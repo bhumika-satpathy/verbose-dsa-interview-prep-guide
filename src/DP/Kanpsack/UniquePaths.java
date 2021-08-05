@@ -51,6 +51,10 @@ public class UniquePaths {
 
 
 //    ----------------------- DP -----------------------------
+    /*
+        1. Calculate for the base conditions, i.e., what if the origin has a rock or the end point has a rock
+        2. Calculate for first row and column
+    * */
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
 
