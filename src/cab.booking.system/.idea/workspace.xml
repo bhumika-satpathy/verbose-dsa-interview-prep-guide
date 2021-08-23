@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="278a6781-eb8a-457a-a267-aff1c0490819" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/controllers/CabsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/controllers/RidersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/database/CabsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/database/RidersManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/database/TripsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/model/Cab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/model/PostResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/model/Rider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/model/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/strategies/CabMatchingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/strategies/CabMatchingStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/strategies/PricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transportation/cab/booking/system/strategies/PricingStrategyImpl.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tsauMv129ZTw1HLtiWjY0AEJuM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Cab Booking system">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cab.booking.system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.transportation.cab.booking.system.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cab Booking system" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cab.booking.system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.transportation.cab.booking.system.Application" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre1.8.0_291" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Cab Booking system" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="278a6781-eb8a-457a-a267-aff1c0490819" name="Default Changelist" comment="" />
+      <created>1623560471093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623560471093</updated>
+      <workItem from="1623560475545" duration="1361000" />
+      <workItem from="1623561851734" duration="1093000" />
+      <workItem from="1623562961217" duration="1377000" />
+      <workItem from="1623564355158" duration="2494000" />
+      <workItem from="1623566877518" duration="7690000" />
+      <workItem from="1625185837959" duration="1253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

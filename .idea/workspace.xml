@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1027f7b-bbeb-4618-b92a-7de9c1e35793" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ArrayOfDoubledPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FlipStringToMonotoneIncreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Longestpalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/NaryLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/NaryPostOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/NaryPreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/SmallestStringStartingFromLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/CheckIfMoveIsLegal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/PalindromePermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../System Design/LLD/cab.booking.system" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -237,7 +228,7 @@
       <workItem from="1627283750127" duration="67530000" />
       <workItem from="1628315577283" duration="1398000" />
       <workItem from="1628566784962" duration="8187000" />
-      <workItem from="1629276428309" duration="1282000" />
+      <workItem from="1629276428309" duration="4124000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
